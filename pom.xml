@@ -4,11 +4,11 @@
 
   <!-- The Basics -->
   <groupId>org.stu</groupId>
-  <artifactId>rm-beer-run</artifactId>
+  <artifactId>java-template</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>rm-beer-run</name>
+  <name>java-template</name>
 
 	<dependencies>
 

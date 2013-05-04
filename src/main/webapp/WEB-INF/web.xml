@@ -7,7 +7,7 @@
 
     <filter>
         <filter-name>sitemesh</filter-name>
-        <filter-class>org.stu.arch.RmBeerRunSiteMeshFilter</filter-class>
+        <filter-class>org.stu.arch.DefaultSiteMeshFilter</filter-class>
     </filter>
 
     <filter-mapping>
@@ -16,7 +16,7 @@
     </filter-mapping>
 
     <servlet>
-        <servlet-name>rm-beer-run</servlet-name>
+        <servlet-name>java-template</servlet-name>
         <servlet-class>
             org.springframework.web.servlet.DispatcherServlet
         </servlet-class>
@@ -24,13 +24,13 @@
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>rm-beer-run</servlet-name>
+        <servlet-name>java-template</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>/WEB-INF/rm-beer-run-servlet.xml</param-value>
+        <param-value>/WEB-INF/java-template-servlet.xml</param-value>
     </context-param>
 
     <listener>
