@@ -10,6 +10,5 @@ public class HelloControllerTest {
     public void testShowHello() {
         HelloController helloController = new HelloController();
         assertEquals("hello", helloController.showHello());
-		fail();
     }
 }
