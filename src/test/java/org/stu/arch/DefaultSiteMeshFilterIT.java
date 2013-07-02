@@ -1,7 +1,7 @@
 package org.stu.arch;
 
+import org.junit.Test;
 import org.sitemesh.builder.SiteMeshFilterBuilder;
-import org.testng.annotations.Test;
 
 public class DefaultSiteMeshFilterIT{
     @Test
