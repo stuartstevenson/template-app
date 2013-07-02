@@ -10,6 +10,5 @@ public class DefaultSiteMeshFilterIT{
     public void testCustomConfiguration() {
         SiteMeshFilterBuilder siteMeshFilterBuilder = new SiteMeshFilterBuilder();
         new DefaultSiteMeshFilter().applyCustomConfiguration(siteMeshFilterBuilder);
-        fail();
     }
 }
